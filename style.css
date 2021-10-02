@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ephesis', cursive;
+}
+body {
+   background: #DD5E89;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   position: relative;
+   display: flex;
+   color: white;
+   justify-content: center;
+   width: 100%;
+   height: 100vh;
+}
+.container {
+    padding-top: 100px;
+}
+h1 {
+    font-size: 70px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.buttons button {
+    margin : 0 30px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 40px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(235, 83, 96);
+    border-radius: 10px;
+}
+#no {
+    position: absolute;
+    right: 50%;
+}
+
+#yes {
+    position: absolute;
+    left: 50%;
+}
