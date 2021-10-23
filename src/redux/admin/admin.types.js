@@ -1,0 +1,8 @@
+const adminTypes = {
+    TOGGLE_ADD_FORM : 'TOGGLE_ADD_FORM',
+    GET_ALL_USER : 'GET_ALL_USER',
+    GET_ALL_HISTORY_ORDERS : 'GET_ALL_HISTORY_ORDERS',
+    GET_CURRENT_USER_ADMIN : 'GET_CURRENT_USER_ADMIN'
+}
+
+export default adminTypes
